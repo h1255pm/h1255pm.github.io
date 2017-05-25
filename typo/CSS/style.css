@@ -1,0 +1,36 @@
+html{
+    background:#fff;
+}
+body{
+    margin:0px;
+    height:200vh;
+    /* guideline plan */
+    background:url("../leading_28px.png");
+    /* font setting */
+    font-family: "Noto Sans KR", "Dotum", "Sans-serif";
+    font-weight:200;
+    line-height:1.75;
+    font-size: 16px;
+    color:#222;
+
+    /* 속기형 속성 : 글꼴, 글자 크기, 글자 두께, 글자 기울기, 글자 변형, 행간 */
+    /* font: 글자크기 글꼴; (필수)*/
+    /* font: 글자크기/행간 글꼴; (옵션)*/
+    font: 200 16px/1.75 "Noto Sans KR", Dotum, sans-serif;
+    /* font: 두께 기울기 변형 글자크기/행간 글꼴; (옵션)*/
+    /* font: bold italic small-caps 14px/1.5 "NanumSquare", Dotum, sans-serif;*/
+}
+p{
+    margin:0 0 28px;
+}
+.container{
+    /* width를 90%로 쓰지만 최대값 이상으로는 벌어지지 않도록 .*/
+    width:90%;
+    max-width:640px;
+    /* 마진을 양분하기 위해선 width값이 지정되어있어야함 */
+    margin:0 auto;
+    margin-left:auto;
+    margin-left:auto;
+    padding-top:56px;
+
+}
