@@ -5,13 +5,13 @@ body{
     margin:0px;
     height:200vh;
     /* guideline plan */
-    background:url("../leading_28px.png");
+    /*background:url("../leading_28px.png");*/
     /* font setting */
     font-family: "Noto Sans KR", "Dotum", "Sans-serif";
     font-weight:200;
     line-height:1.75;
     font-size: 16px;
-    color:#222;
+    color:#333;
 
     /* 속기형 속성 : 글꼴, 글자 크기, 글자 두께, 글자 기울기, 글자 변형, 행간 */
     /* font: 글자크기 글꼴; (필수)*/
@@ -33,4 +33,48 @@ p{
     margin-left:auto;
     padding-top:56px;
 
+}
+h1,h2,h3,h4,h5{
+    margin:0;
+    margin-bottom:28px;
+    color:#333;
+}
+h1,h2,h3{
+    font-weight:100;
+}
+h1{
+    font-size:66.5px;
+    line-height:84px;
+    margin-bottom:84px;
+}
+h2{
+    font-size:50px;
+    line-height:84px;
+}
+h3{
+    font-size:37.64;
+    line-height:56px;
+}
+h4{
+    font-size:28.3;
+    line-height:28px;
+}
+h5{
+    
+}
+.paragraph{
+    margin-bottom:56px;
+}
+a{
+    text-decoration:none;
+    color:#63ADD2;
+    font-weight:400;
+}
+a:hover{
+    color:#FF92E6;
+}
+b{
+    text-decoration:none;
+    font-weight:200;
+    background-color:#DFF5FF;
 }
