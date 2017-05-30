@@ -1,27 +1,24 @@
 html{
-    background:#fff;
+    /* rem 단위의 기준설정 값 */
+    /* 왜 10픽셀? 계산이 용이 */
+    font-size: 10px;
 }
 body{
     margin:0px;
-    height:200vh;
     /* guideline plan */
     background:url("../leading_28px.png");
     /* font setting */
-    font-family: "Noto Sans KR", "Dotum", "Sans-serif";
-    font-weight:200;
-    line-height:1.75;
-    font-size: 16px;
+    font: 200 1.6rem/2.8rem "Noto Sans KR";
     color:#333;
 
     /* 속기형 속성 : 글꼴, 글자 크기, 글자 두께, 글자 기울기, 글자 변형, 행간 */
     /* font: 글자크기 글꼴; (필수)*/
-    /* font: 글자크기/행간 글꼴; (옵션)*/
-    font: 200 16px/1.75 "Noto Sans KR", Dotum, sans-serif;
-    /* font: 두께 기울기 변형 글자크기/행간 글꼴; (옵션)*/
+    /* font: 글자크기/행간 글꼴; (옵션)*//* font: 두께 기울기 변형 글자크기/행간 글꼴; (옵션)*/
     /* font: bold italic small-caps 14px/1.5 "NanumSquare", Dotum, sans-serif;*/
 }
 p{
-    margin:0 0 28px;
+    margin-top:0;
+    margin-bottom: 2.8rem;
 }
 .container{
     /* width를 90%로 쓰지만 최대값 이상으로는 벌어지지 않도록 .*/
@@ -31,42 +28,44 @@ p{
     margin:0 auto;
     margin-left:auto;
     margin-left:auto;
-    padding-top:56px;
+    padding-top:5.6rem;
 
 }
-h1,h2,h3,h4,h5{
-    margin:0;
-    margin-bottom:28px;
-    color:#333;
+/*제목 디자인*/
+/*아래부터 시작 h6부터*/
+
+h5{
+    font-size:2.13rem;   /*  1.6*1.33  */
+    line-height:2.8rem;   /*  1줄이니까  */
 }
+h4{
+    font-size:2.83rem;   
+    line-height:5.6rem;
+
+}
+h3{
+    font-size:3.76rem;  
+    line-height:5.6rem;
+}
+h2{
+    font-size:5rem;
+    line-height:8.4rem;
+}
+h1{
+    font-size:6.7rem;
+    line-height:8.4rem;
+}
+
+
+h1,h2,h3,h4,h5{
+    margin-top:0;
+    margin-bottom:2.8rem;
+}
+
 h1,h2,h3{
     font-weight:100;
 }
-h1{
-    font-size:66.5px;
-    line-height:84px;
-    margin-bottom:84px;
-}
-h2{
-    font-size:50px;
-    line-height:84px;
-}
-h3{
-    font-size:37.64px;
-    line-height:56px;
-}
-h4{
-    font-size:28.3px;
-    line-height:28px;
-}
-h5{
-    font-size:21.3px;
-    line-height:28px;
-    
-}
-.paragraph{
-    margin-bottom:56px;
-}
+/*
 a{
     text-decoration:none;
     color:#63ADD2;
@@ -79,4 +78,4 @@ b{
     text-decoration:none;
     font-weight:200;
     background-color:#DFF5FF;
-}
+}*/
