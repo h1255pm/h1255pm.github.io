@@ -1,82 +1,54 @@
+html,body,h1,h2,h3,h4,h5,p{
+    margin:0;
+    overflow-y:scroll;
+}
 html{
-    background:#fff;
+    font-size:10px;
 }
 body{
-    margin:0px;
-    height:200vh;
-    /* guideline plan */
-    background:url("../leading_28px.png");
-    /* font setting */
-    font-family: "Noto Sans KR", "Dotum", "Sans-serif";
-    font-weight:200;
-    line-height:1.75;
-    font-size: 16px;
-    color:#333;
-
-    /* 속기형 속성 : 글꼴, 글자 크기, 글자 두께, 글자 기울기, 글자 변형, 행간 */
-    /* font: 글자크기 글꼴; (필수)*/
-    /* font: 글자크기/행간 글꼴; (옵션)*/
-    font: 200 16px/1.75 "Noto Sans KR", Dotum, sans-serif;
-    /* font: 두께 기울기 변형 글자크기/행간 글꼴; (옵션)*/
-    /* font: bold italic small-caps 14px/1.5 "NanumSquare", Dotum, sans-serif;*/
-}
-p{
-    margin:0 0 28px;
-}
-.container{
-    /* width를 90%로 쓰지만 최대값 이상으로는 벌어지지 않도록 .*/
-    width:90%;
-    max-width:640px;
-    /* 마진을 양분하기 위해선 width값이 지정되어있어야함 */
-    margin:0 auto;
     margin-left:auto;
-    margin-left:auto;
-    padding-top:56px;
-
-}
-h1,h2,h3,h4,h5{
-    margin:0;
-    margin-bottom:28px;
-    color:#333;
-}
-h1,h2,h3{
-    font-weight:100;
-}
-h1{
-    font-size:66.5px;
-    line-height:84px;
-    margin-bottom:84px;
-}
-h2{
-    font-size:50px;
-    line-height:84px;
-}
-h3{
-    font-size:37.64px;
-    line-height:56px;
-}
-h4{
-    font-size:28.3px;
-    line-height:28px;
+    margin-right:auto;
+    color:#666;
+    font:200 1.6rem/1.75 "Noto Sans KR";
 }
 h5{
-    font-size:21.3px;
-    line-height:28px;
-    
+    font:600 2.13rem/2.63 "Noto Sans KR";
+    margin-bottom: 2.8rem;
+}
+h4{
+    font:400 2.83rem/2 "Noto Sans KR";
+}
+h3{
+    font:100 3.76rem/1.49 "Noto Sans KR";
+}
+h2{
+    font:100 5rem/1.7 "Noto Sans KR";
+}
+h1{
+    font:100 6.65rem/1.26 "Noto Sans KR";
+    margin-bottom:5.6rem;
+}
+.container{
+    width:90%;
+    max-width: 640px;
+    margin-top:5.6rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .paragraph{
-    margin-bottom:56px;
+    margin-bottom: 5.6rem;
+}
+.grid{
+    background:url("../leading_28px.png");
 }
 a{
     text-decoration:none;
-    color:#63ADD2;
-    font-weight:400;
+    color:#354984;
 }
 a:hover{
-    color:#FF92E6;
+    color:#E26567;
 }
 b{
-    text-decoration:none;
     font-weight:200;
-    background-color:#DFF5FF;
-}
+    background-color: #E2EAFF;
+    }
