@@ -1,0 +1,61 @@
+/*
+ * Color List
+ * #f7dcd5
+ * #fbf3e3
+ * #f8e8da
+ * #f6f8f8
+ * #faebd7
+ * #fbf6e4
+ * #faeae9
+ * #fdf8f1
+ * #eadfe9
+ * #f2f6f5
+ * #faebea
+ * #fbf1e3
+ * #ffffff
+ */
+
+
+
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    font-size: 1.4rem;
+}
+.iconset{
+ margin: 4rem;
+}
+.iconset::after{
+    display:block;
+
+    content:'';
+    clear:both;
+}
+.icon-wrapper{
+    width: 24%;
+    height: 17rem;
+    float:left;
+    text-align:center;
+    line-height:17rem;
+    border:1px solid black;
+
+}
+
+/*.icon-wrapper:nth-child(2){
+    background:#f7dcd5;
+    }
+  #fbf3e3
+  #f8e8da
+  #f6f8f8
+  #faebd7
+  #fbf6e4
+  #faeae9
+  #fdf8f1
+  #eadfe9
+  #f2f6f5
+  #faebea
+  #fbf1e3
+  #ffffff*/

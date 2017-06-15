@@ -1,0 +1,157 @@
+/*초기화*/
+html{
+    overflow-y: scroll;    
+    font-size: 10px;
+    background: fff;
+    
+
+}
+
+/*실제 성능에서는 body *보다 일일이 써주는게 낫긴 함 */
+body{
+    margin:0;
+}
+body *{
+    margin-top: 0;
+    margin-bottom: 2.1rem;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+img{
+    vertical-align:middle;
+}
+/*이미지여백값 초기화*/
+.guide {
+  height: 100vh;
+  background: linear-gradient(180deg, transparent 2rem, hsla(246.9, 60.2%, 63.4%, 0.6) 2rem);
+  background-size: 0.1rem 2.1rem;
+}
+.toggle-guide {
+  cursor: pointer;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  padding: 1em;
+  background: hsla(246.9, 60.2%, 63.4%, 0.65);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.45s ease-in-out;
+  box-shadow: 0 1px 4px hsla(0, 0%, 40%, 0.35);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+.toggle-guide:hover {
+  background: hsla(246.9, 60.2%, 63.4%, 0.95);
+}
+/*타이포그래피*/
+/*common design*/
+header{
+    text-align: center;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 82rem;
+    padding-top:8.4rem;
+
+}
+/*paragraph design*/
+p{
+    letter-spacing: -0.02em;
+    
+}
+
+/*title design*/
+h1,h3,h5,h6{
+    letter-spacing: -0.05em;
+}
+h1,h3{
+    font-weight:300;
+    color:#333741;
+}
+h5,h6{
+    font-weight:400;
+    line-height:2.1rem;
+}
+h1{
+    font-size:5.46rem;
+    line-height: 6.3rem;
+}
+h3{
+    font-size:3.17rem;
+    line-height:4.2rem;
+}
+h5{
+    font-size:1.838rem;
+    color:#7f7894;
+}
+h6{
+    font-size:1.56rem;
+    /*글자크기에 대한 상대값이므로 em단위를 사용*/
+    color: #47494e;
+}
+
+/*list design*/
+.reset-list{
+    margin-top: 0;
+    margin-bottom: 2.1rem;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.section-important{
+
+}
+.order-teeth-manage{
+    counter-reset: order-teeth-manage;
+}
+.order-teeth-manage li::before{
+    content:counter(order-teeth-manage)'.';
+    counter-increment:order-teeth-manage;
+}
+.order-title{
+    font-weight: 700;
+    color:#787f94;
+    letter-spacing: -0.01em;
+    margin-top: 2.1rem;
+    display:inline-block;
+}
+.order-teeth-manage{
+    margin-top: 4.2rem;
+}
+
+li{}
+
+dl{
+
+}
+dt{
+
+}
+dd{
+
+}
+
+/*hyperlink design*/
+a:link{
+    color:#227e92;
+    text-decoration: none;
+
+}
+a:hover{
+    color:#41b4cd;
+}
+/*레이아웃*/
+
+.section-important{
+
+}
+.section-qna{
+
+}
+main{
+    margin-top: 4.2rem;
+}
