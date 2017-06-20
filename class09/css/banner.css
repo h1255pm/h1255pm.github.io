@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.banner{
+    width: 800px;
+    height: 320px;
+    background: #222;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-160px 0 0 -400px;
+}
+.banner *{
+    position:absolute;
+}
+
+.banner-kingkong {
+    position: absolute;
+    bottom: 0;
+    right: 11px;
+}
+
+img.banner-gorillas {
+    bottom: 22px;
+    left: 12px;
+}

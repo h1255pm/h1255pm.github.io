@@ -1,0 +1,96 @@
+@charset "utf-8";
+::selection{
+    background: #dba68f;
+    color:#fff;
+}
+
+.baskerville{
+    font-weight:300;
+    font-family: 'Libre Baskerville', serif;
+}
+.baskerville .is-italic{
+    font-style: italic;
+}
+.montserrat{
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat.is-bold{
+    font-weight: 700;
+}
+.grace-ui.banner{
+    width: 580px;
+    height: 215px;
+    background: #fff url("../assets/people.png") no-repeat 88px 9px;
+    
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.grace-ui.banner:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.is-centerXY{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -107.5px;
+    margin-left: -290px;
+}
+.is-centerXY>*{
+    position: absolute;
+}
+.banner-category{
+    font-size: 12px;
+    font-weight: 700px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    top:50%;
+    left:10px;
+
+}
+
+.banner-headline{
+    color: #dba68f;
+    font-size: 36px;
+    line-height: 1.1111;
+    top:-10px;
+    right:60px;
+
+}
+.banner-headline span{
+    margin-right:10px;
+}
+.banner-review{
+    font-size: 13px;
+    bottom:20px;
+    right:90px;
+}
+.banner-review .review-view{
+    background: url("../assets/icon-view.svg") no-repeat 0 50%;
+
+    padding-left: 24px;
+    margin-right: 20px;
+
+}
+.banner-review .review-comments{
+    background: url("../assets/icon-comments.svg") no-repeat 0 50%;
+    padding-left:24px;
+}
+
+.banner-review-link{
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-size:14px;
+    color:white;
+    border-radius: 40px;
+    transition: all 600ms ease-out;
+    background: #000;
+    right:45px;
+    bottom:50px;
+}
+.banner-review-link:hover{
+    background-color:#dba68f;
+}
