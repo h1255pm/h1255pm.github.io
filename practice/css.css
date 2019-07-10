@@ -1,7 +1,10 @@
 
 body {
+    
+    font-size:14px;
 	margin: 0;
     padding: 0;
+    margin:0 auto;
     background-color:#17191A;
     color:white;
 }
@@ -18,11 +21,29 @@ li{
     display:inline-block;
 }
 #gnb{
-    height:79px;
+    height:20px;
     border-bottom:1px solid #333333;
     background-color:#17191A;
+    padding:30px;
+}
+#gnb li{
+    margin-right:24px;
+}
+#gnb li:first-child{
+    margin-right:45px;
 }
 #main{
     height:410px;
     background-color:#000000;
+}
+#hot_live{
+    margin:0 auto;
+}
+.hot_live_info{
+    height:142px;
+    width:200px;
+    
+}
+.hot_live_thumb{
+   
 }
