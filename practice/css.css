@@ -1,0 +1,28 @@
+
+body {
+	margin: 0;
+    padding: 0;
+    background-color:#17191A;
+    color:white;
+}
+form, ul, ol, dl,h1 {
+	margin: 0;
+	padding: 0;
+}
+hr {
+	display: none;
+}
+
+
+li{
+    display:inline-block;
+}
+#gnb{
+    height:79px;
+    border-bottom:1px solid #333333;
+    background-color:#17191A;
+}
+#main{
+    height:410px;
+    background-color:#000000;
+}
